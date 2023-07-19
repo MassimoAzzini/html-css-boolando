@@ -53,6 +53,7 @@ header .fixed {
   background-color: #ff6900;
   box-shadow: 0px 3px 1px #dedede;
   top: 0;
+  z-index: 999;
   }
 
 header .container.flex {
@@ -67,13 +68,17 @@ header .container .logo {
 
 /* MAIN */
 
-main .container {
+main .container.flex {
   padding-top: 40px;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .product {
   max-width: 400px;
-  width: 30%;
+  width: 33%;
+  min-width: 250px;
+  padding: 5px;
 }
 
 .product img {
@@ -81,6 +86,7 @@ main .container {
 }
 
 .product .image .heart {
+  cursor: pointer;
   position: absolute;
   right: 0;
   top: 10px;
@@ -128,3 +134,31 @@ main .container {
   text-decoration: line-through;
 }
 
+/* HOVER */
+.heart:hover {
+  color: red;
+}
+
+#img-relaxed:hover {
+  content: url(../img/1b.webp);
+}
+
+#img-roses:hover {
+  content: url(../img/2b.webp);
+}
+
+#img-voglia:hover {
+  content: url(../img/3b.webp);
+}
+
+#img-tee-unisex:hover {
+  content: url(../img/4b.webp);
+}
+
+#img-stripe:hover {
+  content: url(../img/5b.webp);
+}
+
+#img-maglione:hover {
+  content: url(../img/6b.webp);
+}
