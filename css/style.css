@@ -90,24 +90,25 @@ main .container {
   padding: 5px 10px;
 }
 
-.product .image .discount {
+.product .tag {
   position: absolute;
   left: 0;
-  bottom: 30px;
+  bottom: 40px;
   font-size: .7rem;
   color: white;
+}
+
+
+.product .image .discount {
   background-color: red;
   padding: 5px 15px;
+
 }
 
 .product .image .sostenibilita {
-  position: absolute;
-  left: 0;
-  bottom: 30px;
-  font-size: .7rem;
-  color: white;
   background-color: green;
-  padding: 5px 15px;
+  padding: 5px;
+
 }
 
 
