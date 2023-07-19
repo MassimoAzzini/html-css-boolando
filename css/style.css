@@ -16,6 +16,12 @@ main {
 header,
 footer {
   color: white;
+  font-size: 0.8rem;
+}
+
+footer {
+  background-color: black;
+  height: 100px;
 }
 
 .container {
@@ -98,7 +104,7 @@ main .container.flex {
   position: absolute;
   left: 0;
   bottom: 40px;
-  font-size: .7rem;
+  font-size: 0.7rem;
   color: white;
 }
 
@@ -161,4 +167,23 @@ main .container.flex {
 
 #img-maglione:hover {
   content: url(../img/6b.webp);
+}
+/* fine HOVER */
+
+/* FOOTER */
+footer .container.flex {
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .company span {
+  font-weight: bold;
+  margin: 0 5px;
+  font-size: 1rem;
+}
+
+footer .company > * {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
