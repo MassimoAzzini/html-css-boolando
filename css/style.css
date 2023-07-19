@@ -101,6 +101,7 @@ main .container {
 }
 
 .product .image .sostenibilita {
+  position: absolute;
   left: 0;
   bottom: 30px;
   font-size: .7rem;
