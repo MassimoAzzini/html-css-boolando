@@ -9,6 +9,10 @@ html {
   font-size: 14px;
 }
 
+main {
+  margin-top: 50px;
+}
+
 header,
 footer {
   color: white;
@@ -28,6 +32,10 @@ footer {
   display: flex;
 }
 
+.relative {
+  position: relative;
+}
+
 ul.flex {
   list-style: none;
 }
@@ -44,8 +52,8 @@ header .fixed {
   height: 50px;
   background-color: #ff6900;
   box-shadow: 0px 3px 1px #dedede;
+  top: 0;
   }
-
 
 header .container.flex {
   height: 100%;
@@ -56,3 +64,49 @@ header .container.flex {
 header .container .logo {
   width: 100px;
 }
+
+/* MAIN */
+
+main .container {
+  padding-top: 40px;
+}
+
+.product {
+  max-width: 400px;
+  width: 30%;
+  height: 600px;
+  background-color: blue;
+}
+
+.product img {
+  width: 100%;
+}
+
+.product .image .heart {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  background-color: white;
+  padding: 5px 10px;
+}
+
+.product .image .discount {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  font-size: .7rem;
+  color: white;
+  background-color: red;
+  padding: 5px 15px;
+}
+
+.product .image .sostenibilita {
+  left: 0;
+  bottom: 30px;
+  font-size: .7rem;
+  color: white;
+  background-color: green;
+  padding: 5px 15px;
+}
+
+
