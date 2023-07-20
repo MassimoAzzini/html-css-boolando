@@ -76,9 +76,9 @@ header .container .logo {
 
 main .container.flex {
   padding: 40px 0;
-  justify-content: space-around;
+  justify-content: start;
   flex-wrap: wrap;
-}
+  
 
 .product {
   max-width: 400px;
